@@ -90,7 +90,7 @@ def scripts(session):
         "--cov=scripts",
         "--cov-config=.coveragerc",
         "--cov-report=",
-        "--cov-fail-under=85",
+        "--cov-fail-under=80",
         "scripts",
         *session.posargs,
     )
